@@ -13,11 +13,19 @@
 ## 🚀 One-Line Installation & Run
 
 ### Windows (PowerShell)
+
+Dependencies 
 ```
 pip install yt-dlp spotdl instaloader rich
 winget install --id Gyan.FFmpeg -e && pip install yt-dlp spotdl instaloader rich
-
-python Desktop\vipd.py
+python -m pip install yt-dlp rich
+```
+```
+Invoke-WebRequest -Uri "https://github.com/toolsbyvipin/VIP-DOWNLOADER/archive/refs/heads/main.zip" -OutFile "$env:USERPROFILE\Downloads\VIP-DOWNLOADER.zip"
+Expand-Archive -Path "$env:USERPROFILE\Downloads\VIP-DOWNLOADER.zip" -DestinationPath "$env:USERPROFILE\Downloads\" -Force
+cd Downloads
+cd VIP-DOWNLOADER--main
+python vipdl.py
 ```
 
 ### Termux 
