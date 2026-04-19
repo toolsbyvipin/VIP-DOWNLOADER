@@ -14,8 +14,10 @@
 
 ### Windows (PowerShell)
 ```
-powershell
-pip install yt-dlp spotdl instaloader rich && python vipdl.py
+pip install yt-dlp spotdl instaloader rich
+winget install --id Gyan.FFmpeg -e && pip install yt-dlp spotdl instaloader rich
+
+python Desktop\vipd.py
 ```
 
 ### Termux 
@@ -25,5 +27,5 @@ pkg update
 pkg upgrade -y
 pkg install -y apt
 pkg install -y dpkg
-pkg update && pkg install python ffmpeg && pip install yt-dlp spotdl instaloader rich && wget https://toolsbyvipin/VIP-DOWNLOADER/main/vipdl.py -O vipdl.py && python vipdl.py
+pkg update && pkg install python ffmpeg && pip install yt-dlp spotdl instaloader rich && wget https://github.com/toolsbyvipin/VIP-DOWNLOADER.git -O vipdl.py && python vipdl.py
 ```
