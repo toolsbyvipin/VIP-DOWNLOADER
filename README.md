@@ -37,3 +37,8 @@ pkg install -y apt
 pkg install -y dpkg
 pkg update && pkg install python ffmpeg && pip install yt-dlp spotdl instaloader rich && wget https://github.com/toolsbyvipin/VIP-DOWNLOADER.git -O vipdl.py && python vipdl.py
 ```
+Download any video from here it will not save on local device , to save it  copy to download section 
+
+```
+cp -r ~/VIP_Downloads/* /sdcard/Download/
+```
